@@ -1,0 +1,18 @@
+version: 1
+
+skills:
+  - name: create-user-story
+    path: skills/cross/create-user-story/SKILL.MD
+    domain: cross
+  - name: sso-with-google
+    path: skills/frontend/nextjs/sso-with-google/SKILL.md
+    domain: frontend/nextjs
+  - name: code-review
+    path: skills/cross/code-review/SKILL.md
+    domain: cross
+  # ...
+
+shared:
+  - path: shared/architecture/clean-architecture.md
+  - path: shared/best-practices/error-handling.md
+  # ...
